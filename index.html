@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suresh Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .card {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            margin: 30px auto;
+            width: 80%;
+            border-radius: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: gold;
+            color: black;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>🚀 Welcome to My Website</header>
+
+    <div class="card">
+        <h2>👋 Hi, I'm Suresh</h2>
+        <p>BTech Mechanical Graduate | Python Developer</p>
+        <p>I love coding, web development & projects.</p>
+
+        <button onclick="showMessage()">Click Me</button>
+        <p id="msg"></p>
+    </div>
+
+    <div class="card">
+        <h2>📌 My Skills</h2>
+        <p>Python | HTML | CSS | JavaScript | Flask | MySQL</p>
+    </div>
+
+    <div class="card">
+        <h2>📞 Contact</h2>
+        <p>Email: chintalasuresh169@gmail.com</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("msg").innerHTML = "🔥 Thanks for visiting my website!";
+        }
+    </script>
+
+</body>
+</html>
